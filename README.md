@@ -24,5 +24,5 @@ Before you can run the calculator, ensure you have the following installed:
 
 3. **Build and Run the Project**:
 
-   1. Build the project using your IDE's build tools.
-   2. Run the application from your IDE.
+   - Build the project using your IDE's build tools.
+   - Run the application from your IDE.
