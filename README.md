@@ -13,8 +13,9 @@ Before you can run the calculator, ensure you have the following installed:
 
 1. **Clone the Repository**:
 
-git clone https://github.com/andrcode1/source.git
-cd StandardCalculator
+`git clone https://github.com/andrcode1/source.git`
+
+`cd StandardCalculator`
 
 2. **Compile the Project**:
 
