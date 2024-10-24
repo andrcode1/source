@@ -1,6 +1,6 @@
 # Standard Calculator
 
-This is a simple standard calculator application built using C++ and wxWidgets.
+This is a standard calculator project which is able to calculate complex mathematical expressions. Is built using the wxWidgets library for cross-platform compatibility.
 
 ## Prerequisites
 
@@ -15,12 +15,14 @@ Before you can run the calculator, ensure you have the following installed:
 
    `git clone https://github.com/andrcode1/source.git`
 
-   `cd StandardCalculator`
+   `cd source`
 
-2. **Compile the Project**:
+2. **Configure the project to include wxWidgets**:
 
-   ``g++ -o StandardCalculator App.cpp MainFrame.cpp StandardCalculator.cpp `wx-config --cxxflags --libs` ``
+   - Add the include directories for wxWidgets.
+   - Link the wxWidgets libraries.
 
-3. **Run the Application**:
+3. **Build and Run the Project**:
 
-    ` ./StandardCalculator `
+   1. Build the project using your IDE's build tools.
+   2. Run the application from your IDE.
