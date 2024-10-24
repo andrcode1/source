@@ -18,9 +18,7 @@ cd StandardCalculator
 
 2. **Compile the Project**:
 
-    `g++ -o StandardCalculator App.cpp MainFrame.cpp StandardCalculator.cpp -I<path_to_wxWidgets_include> -L<path_to_wxWidgets_lib> -lwx_baseu-3.2 -lwx_gtk3u_core-3.2`
-
-    Replace `<path_to_wxWidgets_include>` and `<path_to_wxWidgets_lib>` with the actual paths to your wxWidgets include and library directories.
+   ``g++ -o StandardCalculator App.cpp MainFrame.cpp StandardCalculator.cpp `wx-config --cxxflags --libs` ``
 
 3. **Run the Application**:
 
